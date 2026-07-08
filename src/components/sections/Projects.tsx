@@ -5,12 +5,14 @@ import { SectionHeading } from '@/components/ui/SectionHeading'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { useProjects } from '@/hooks/useLocalizedData'
 
+const base = import.meta.env.BASE_URL
+
 const logoMap: Record<string, string> = {
-  'den-den-ai': '/Dendenai.jpeg',
-  'las-ai': '/LasAI.jpeg',
-  'hospital-triage-ai': '/AI_Hospital_Triage.jpeg',
-  'cartoon-landing': '/CartoonLanding.jpeg',
-  'uztargi-porra': '/UztargiPorra.jpeg',
+  'den-den-ai': `${base}Dendenai.jpeg`,
+  'las-ai': `${base}LasAI.jpeg`,
+  'hospital-triage-ai': `${base}AI_Hospital_Triage.jpeg`,
+  'cartoon-landing': `${base}CartoonLanding.jpeg`,
+  'uztargi-porra': `${base}UztargiPorra.jpeg`,
 }
 
 export function Projects() {
