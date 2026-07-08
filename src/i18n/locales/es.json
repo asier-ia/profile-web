@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "work": "Trabajo",
+    "experience": "Experiencia",
+    "tools": "Stack",
+    "contact": "Contacto",
+    "cta": "Hablemos"
+  },
+  "hero": {
+    "available": "Disponible para nuevos proyectos · {{year}}",
+    "viewWork": "Ver trabajo",
+    "getInTouch": "Contactar",
+    "scroll": "Scroll"
+  },
+  "skills": {
+    "eyebrow": "Un pequeño toolkit que disfruto usando"
+  },
+  "projects": {
+    "eyebrow": "Seleccionados",
+    "title": "Proyectos recientes",
+    "description": "Un conjunto curado de trabajo en producto, IA y backend.",
+    "viewProject": "Ver proyecto"
+  },
+  "experience": {
+    "eyebrow": "Trayectoria",
+    "title": "Experiencia",
+    "description": "Equipos, productos y decisiones que han marcado mi forma de trabajar."
+  },
+  "tools": {
+    "eyebrow": "Stack",
+    "title": "Stack de IA",
+    "description": "Las seis herramientas clave que uso para construir, entrenar y desplegar productos de IA de extremo a extremo."
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "¿Tienes algo en mente? Escribeme.",
+    "description": "Estoy abierto a prácticas, contratos y colaboraciones interesantes. Mándame un email y hablamos.",
+    "emailCta": "Enviar email",
+    "linkedinCta": "Conectar en LinkedIn"
+  },
+  "project": {
+    "back": "Volver al inicio",
+    "role": "Rol",
+    "client": "Cliente",
+    "year": "Año",
+    "stack": "Stack",
+    "viewLive": "Ver en vivo",
+    "viewDemo": "Ver demo",
+    "viewProject": "Ver proyecto",
+    "source": "Código fuente",
+    "demos": "Demos en vivo",
+    "next": "Siguiente proyecto"
+  },
+  "sidebar": {
+    "basedIn": "Ubicado en",
+    "status_label": "Estado",
+    "status": "Disponible para nuevos proyectos",
+    "contact": "Contacto",
+    "languages": "Idiomas",
+    "connect": "Conectar"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "crafted": "Hecho con React, Vite, Tailwind y Framer Motion."
+  }
+}

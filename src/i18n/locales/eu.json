@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "work": "Lana",
+    "experience": "Esperientzia",
+    "tools": "Stack",
+    "contact": "Harremana",
+    "cta": "Hitz egin dezagun"
+  },
+  "hero": {
+    "available": "Proiektu berrietarako eskuragarri · {{year}}",
+    "viewWork": "Ikusi lana",
+    "getInTouch": "Jarri harremanetan",
+    "scroll": "Korritu"
+  },
+  "skills": {
+    "eyebrow": "Gustuko dudan toolkit txikia"
+  },
+  "projects": {
+    "eyebrow": "Hautatuak",
+    "title": "Azken proiektuak",
+    "description": "IA, produktu eta backend lanaren hautaketa bat.",
+    "viewProject": "Ikusi proiektua"
+  },
+  "experience": {
+    "eyebrow": "Ibilbidea",
+    "title": "Esperientzia",
+    "description": "Nire lan modua moldatu duten talde, produktu eta erabakiak."
+  },
+  "tools": {
+    "eyebrow": "Stack",
+    "title": "IA Stack-a",
+    "description": "Sei tresna nagusiak, AA produktuak eraiki, entrenatu eta zabaltzeko muturretik muturrera."
+  },
+  "contact": {
+    "eyebrow": "Harremana",
+    "title": "Ideiaren bat buruan? Idatzi.",
+    "description": "Praktiketara, kontratuetara eta kolaborazio interesgarrietara irekita nago. Bidali email bat eta hitz egin dezagun.",
+    "emailCta": "Bidali emaila",
+    "linkedinCta": "LinkedIn-en konektatu"
+  },
+  "project": {
+    "back": "Itzuli hasierara",
+    "role": "Rola",
+    "client": "Bezeroa",
+    "year": "Urtea",
+    "stack": "Stack",
+    "viewLive": "Ikusi zuzenean",
+    "viewDemo": "Ikusi demoa",
+    "viewProject": "Ikusi proiektua",
+    "source": "Iturburu kodea",
+    "demos": "Demo zuzenak",
+    "next": "Hurrengo proiektua"
+  },
+  "sidebar": {
+    "basedIn": "Kokalekua",
+    "status_label": "Egoera",
+    "status": "Proiektu berrietarako eskuragarri",
+    "contact": "Harremana",
+    "languages": "Hizkuntzak",
+    "connect": "Konektatu"
+  },
+  "footer": {
+    "rights": "Eskubide guztiak erreserbatuta.",
+    "crafted": "React, Vite, Tailwind eta Framer Motion-ekin egina."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "work": "Work",
+    "experience": "Experience",
+    "tools": "Stack",
+    "contact": "Contact",
+    "cta": "Let's talk"
+  },
+  "hero": {
+    "available": "Available for new projects · {{year}}",
+    "viewWork": "View work",
+    "getInTouch": "Get in touch",
+    "scroll": "Scroll"
+  },
+  "skills": {
+    "eyebrow": "A small toolbox I love working with"
+  },
+  "projects": {
+    "eyebrow": "Selected",
+    "title": "Recent Projects",
+    "description": "A curated set of work spanning AI, product and backend.",
+    "viewProject": "View project"
+  },
+  "experience": {
+    "eyebrow": "Career",
+    "title": "Experience",
+    "description": "Teams, products and decisions that shaped my craft."
+  },
+  "tools": {
+    "eyebrow": "Stack",
+    "title": "AI Stack",
+    "description": "The core six I reach for to build, train and ship AI products end to end."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Got something in mind? Let's talk.",
+    "description": "I'm open to internships, full-time roles and interesting collaborations. Drop me a line and let's chat.",
+    "emailCta": "Send email",
+    "linkedinCta": "Connect on LinkedIn"
+  },
+  "project": {
+    "back": "Back to home",
+    "role": "Role",
+    "client": "Client",
+    "year": "Year",
+    "stack": "Stack",
+    "viewLive": "View live",
+    "viewDemo": "View demo",
+    "viewProject": "View project",
+    "source": "Source code",
+    "demos": "Live demos",
+    "next": "Next project"
+  },
+  "sidebar": {
+    "basedIn": "Based in",
+    "status_label": "Status",
+    "status": "Available for new projects",
+    "contact": "Contact",
+    "languages": "Languages",
+    "connect": "Connect"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "crafted": "Crafted with React, Vite, Tailwind & Framer Motion."
+  }
+}
