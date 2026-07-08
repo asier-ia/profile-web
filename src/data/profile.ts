@@ -4,7 +4,7 @@ const rawProfile: RawProfile = {
   name: 'Asier Iglesias Alconero',
   shortName: 'Asier IA',
   email: 'asier.ia04@gmail.com',
-  avatar: '/profile.JPG',
+  avatar: `${import.meta.env.BASE_URL}profile.JPG`,
   socials: [
     { label: 'GitHub', href: 'https://github.com/asier-ia', icon: 'github' },
     { label: 'Instagram', href: 'https://www.instagram.com/asier_iglesias21', icon: 'instagram' },
