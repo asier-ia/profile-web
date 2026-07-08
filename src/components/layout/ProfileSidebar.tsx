@@ -48,8 +48,7 @@ export function ProfileSidebar() {
                     target={s.href === '#' ? undefined : '_blank'}
                     rel="noreferrer"
                     aria-label={s.label}
-                    data-umami-event="social-link"
-                    data-umami-event-platform={s.label}
+                    onClick={() => window.umami?.track('social-link', { platform: s.label, location: 'sidebar' })}
                     className="group grid h-11 w-11 place-items-center rounded-full border border-border text-muted transition-all hover:scale-105 hover:border-text hover:text-text"
                   >
                     <BrandIcon name={iconKey} size={16} />

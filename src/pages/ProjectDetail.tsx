@@ -127,9 +127,7 @@ export function ProjectDetail() {
                     href={d.url}
                     target="_blank"
                     rel="noreferrer"
-                    data-umami-event="live-demo"
-                    data-umami-event-slug={project.slug}
-                    data-umami-event-label={d.label}
+                    onClick={() => window.umami?.track('live-demo', { slug: project.slug, label: d.label })}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
@@ -155,8 +153,7 @@ export function ProjectDetail() {
               href={project.liveUrl}
               target="_blank"
               rel="noreferrer"
-              data-umami-event="live-demo"
-              data-umami-event-slug={project.slug}
+              onClick={() => window.umami?.track('live-demo', { slug: project.slug })}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
@@ -179,8 +176,7 @@ export function ProjectDetail() {
               href={project.repoUrl}
               target="_blank"
               rel="noreferrer"
-              data-umami-event="source-link"
-              data-umami-event-slug={project.slug}
+              onClick={() => window.umami?.track('source-link', { slug: project.slug })}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
@@ -203,8 +199,7 @@ export function ProjectDetail() {
               </p>
               <Link
                 to={`/project/${next.slug}`}
-                data-umami-event="project-card"
-                data-umami-event-slug={next.slug}
+                onClick={() => window.umami?.track('project-card', { slug: next.slug })}
                 className="group block rounded-2xl border border-border bg-surface p-6 transition-all hover:scale-[1.01] hover:border-text/40"
               >
                 <div className="flex items-center justify-between gap-6">
