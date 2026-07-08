@@ -38,6 +38,8 @@ export function Contact() {
           href={linkedinUrl}
           target="_blank"
           rel="noreferrer"
+          data-umami-event="social-link"
+          data-umami-event-platform="LinkedIn"
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.4 }}
@@ -62,6 +64,8 @@ export function Contact() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={s.label}
+                data-umami-event="social-link"
+                data-umami-event-platform={s.label}
                 className="group inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-2 text-sm text-muted transition-colors hover:border-text hover:text-text"
               >
                 <BrandIcon name={iconKey} size={14} />

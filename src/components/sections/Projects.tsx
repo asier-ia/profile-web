@@ -47,6 +47,8 @@ export function Projects() {
             >
               <Link
                 to={`/project/${p.slug}`}
+                data-umami-event="project-card"
+                data-umami-event-slug={p.slug}
                 className="group block overflow-hidden rounded-2xl border border-border bg-surface transition-colors hover:border-text/40"
               >
                 <div className="flex items-center gap-6 p-6">
